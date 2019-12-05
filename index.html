@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+      
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+    
+        <link rel="icon" href="images/glif.png">
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-152646321-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-152646321-1');
+</script>
+<style>
+/* $light-purple: #ccccff;
+$dark-purple: #9999ff;
+$purple-gray: #a4a4c1;
+$light-gray: #777;
+$header-font: 'Raleway', sans-serif;
+
+@mixin set-margin($margin){
+  margin: $margin;
+} */
+
+.footer {
+  position: absolute;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+body {
+	padding: 0px;
+  font-family: Sans-Serif;
+}
+
+.navbar {
+	margin: 0px; 
+}
+
+.nav-link:hover {
+  color: $light-purple !important;
+}
+
+.jumbotron {
+	text-align: center;
+  background: $light-purple;
+}
+
+.jumbotron-font {
+  color: white !important;
+}
+
+.intro-image {
+	margin-bottom: 15px;
+	width: auto;
+}
+
+.main-section {
+	padding-bottom: 30px;
+}
+
+.icons {
+  color: $purple-gray;
+}
+
+.icons:hover {
+  color: $light-purple;
+}
+
+.bubble {
+  border-radius: 50%;
+  height: 190px;
+  width: 200px;
+}
+
+.bubble-container {
+    text-align: center;
+}
+
+.bubble-text {
+  @include set-margin(30px 0px 0px 0px);
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+.parallax1 {
+  background: url('https://mail.google.com/mail/u/0?ui=2&ik=ab9d6900ce&attid=0.1.1&permmsgid=msg-f:1651309002803259160&th=16eaa0c9fe7e2718&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ_Awq8rQe4kFl-HX4IwQ56zQSFoIIZxpk2L1eox8G1x0YNzjE3Ipo8-vhoqrYMuMdy6dtBylnl1iYMRSAk7nxr3tQ56bSSq8cVY6iUPkxFDwRN1Ye_nSqvUCR4&disp=emb');
+  min-height: 700px;
+}
+
+.parallax2 {
+  background: url('https://res.cloudinary.com/ejbostian/image/upload/v1475096876/img2_oftyio.jpg');
+  min-height: 400px;
+}
+
+.parallax3 {
+  background: url('https://res.cloudinary.com/ejbostian/image/upload/v1475096882/img3_ipgxms.jpg');
+  min-height: 400px;
+}
+
+.parallax1, .parallax2, .parallax3 {
+  position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+  color: $light-gray;
+}
+
+.overlay1 {
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+.relative {
+  position: relative;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  font-family: $header-font;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.overlay-section {
+  height: 700px;
+  text-align: center;
+}
+
+.testyy {
+  font-size: 22;
+}
+
+     .atagbut {
+            background-color: rgb(250, 218, 36);
+            border: none;
+            color: rgb(22, 20, 53);
+            padding: 10px 70px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 20px 12px;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+
+        
+</style>
+</head>
+<body>
+<div class="parallax1">
+        <div class="caption">
+            <div class="testyy">Targeted therapies need a targeted sales approach</div>
+            
+          
+                    <div class="row">
+                      
+                        <div class="col-md-12">
+                            <div class="carousel-caption">
+                                    <!-- <center>  <h1 class="textgrade2 stopfont" >Targeted therapies need a targeted sales approach</h1> -->
+                                        <!-- <h2>SpeakerBOOK is the app you need in order to gain leverage in the use of your speaker network and maximize your sales results.
+                                            </h2> -->
+                                            <button type="button" class="btn btn-primary atagbut" data-toggle="modal" data-target="#exampleModal">
+                                                    Pre-Order Today
+                                                  </button>
+                                        </center> 
+                            </div>
+                         </div>     
+                 </div>
+                
+
+
+        </div>
+    </div>
+    <div class="overlay overlay1 overlay-section">
+
+            <center>
+                    <div class="graybackground">
+                        <h5 class="toppadding">Healthcare CRM Problems </h5>
+                        <div class="container">
+                                <div class="row">
+                                    <p class="paddingsides">Are you able to maximize your results with the information you currently have about your speaker network?  Most reps don’t 
+                                        know the full background of the speakers that they are using as part of there programs.  This leads to suboptimal results.</p>
+                                        <div class="col-4">
+                                                <center>    
+                                                        <img class="card-img-top card-img-top4" src="images/aa_1.png" alt="HTML tutorial" >
+                                                      </center> 
+                                                <center>    <p>Communicating with the wrong MSL's </p></center>  
+                                               </div>
+                                  <div class="col-4">
+                                        <center>    
+                                                <img class="card-img-top card-img-top4" src="images/aa_2.png" alt="HTML tutorial" >
+                                              </center> 
+                                  <center>     <p>Overpaying of underperforming data</p></center> 
+                                    <!-- <center>  <a href="speakerbook.html">SpeakerBook</a></center> -->
+                                  </div>
+                                  <div class="col-4">
+                                        <center>    
+                                                <img class="card-img-top card-img-top4" src="images/aa_3.png" alt="HTML tutorial" >
+                                              </center> 
+                                  <center> <p>Lack of visibility to competitor insights</p></center>  
+                                   <!-- <center> <a href="market.html"> Market Intel</a></center> -->
+                                    </div>
+                                </div>
+                              </div>
+        
+                            
+        
+                        <!-- <button type="button" class="btn btn-primary atagbut" data-toggle="modal" data-target="#exampleModal">
+                            Contact Us
+                          </button> -->
+                        </div>
+                </center>
+    </div>
+
+    <div class="parallax2"></div>
+    <div class="relative overlay overlay-section">
+        <h2 class="lead">Parallax scrolling example</h2>
+        <p class="lead">This is an example of how to create a professional parallax scrolling website.</p>
+    </div>
+    <div class="parallax3"></div>
+    
+</body>
+</html>
